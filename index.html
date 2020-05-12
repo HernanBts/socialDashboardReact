@@ -13,14 +13,23 @@
   <body>
     <header class="header">
       <div class="wrapper">
-        <h1>Socail Media Dashboard</h1>
-        <p class="header-total">Total Followers: 23, 004</p>
+        <div class="header-grid">
+          <div>
+            <h1>Socail Media Dashboard</h1>
+            <p class="header-total">Total Followers: 23, 004</p>
+          </div>
+          <div class="dark-mode">
+            <p class="dark-mode-title">Dark Mode</p>
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label class="switch" for="checkbox"></label>
+          </div>
+        </div>
       </div>
     </header>
     <section class="top-cards">
       <div class="wrapper">
         <div class="grid">
-          <article class="card">
+          <article class="card facebook">
             <p class="card-title">
               <img
                 src="https://i.pinimg.com/originals/b3/26/b5/b326b5f8d23cd1e0f18df4c9265416f7.png"
@@ -37,7 +46,7 @@
               12 Today
             </p>
           </article>
-          <article class="card">
+          <article class="card twitter">
             <p class="card-title">
               <img
                 src="https://cdn.clipart.email/7e134391e9bb0fd7460ec196608196e2_png-logo-bird-twitter-image-47450-free-icons-and-png-backgrounds_3500-2849.png"
@@ -54,7 +63,7 @@
               12 Today
             </p>
           </article>
-          <article class="card">
+          <article class="card instagram">
             <p class="card-title">
               <img
                 src="https://image.flaticon.com/icons/png/512/174/174855.png"
@@ -71,7 +80,7 @@
               12 Today
             </p>
           </article>
-          <article class="card">
+          <article class="card youtube">
             <p class="card-title">
               <img
                 src="https://i.pinimg.com/originals/24/24/12/242412a32af5cca3cb114cfee0cd3d8b.png"
@@ -92,5 +101,6 @@
       </div>
     </section>
     <section></section>
+    <script src="./public/js/app.js"></script>
   </body>
 </html>
